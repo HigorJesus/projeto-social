@@ -9,11 +9,16 @@ html,body{
     width: 100vw;
     background-color: black;
 }
+body{
+    background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 main{
     height: 100vh;
     position: relative;
-    background-color: green;
+    
 }
 
 section#telefone{
@@ -25,5 +30,13 @@ section#telefone{
     height: 627px;
     width: 311px;
     background: url(../imagens/frame-iphone.png) no-repeat;
+    background-attachment: fixed;
+}
 
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 549px;
+    width: 269px;
+    height: 471px;
 }
